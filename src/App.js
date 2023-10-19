@@ -37,7 +37,7 @@ function App() {
     {
       // Send a POST request to the API with the form data
       const res = await fetch(
-        "https://chcocpqe5crku3344kyskg532m0sussp.lambda-url.ca-central-1.on.aws/",
+        "/",
         {
           method: "POST",
           body: formData,
