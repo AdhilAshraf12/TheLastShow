@@ -9,8 +9,6 @@ terraform {
 
 provider "aws" {
   region = "ca-central-1"
-  access_key = "AKIAUWE7CGSAQMBMAAOQ"
-  secret_key = "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"
 }
 
 // DynamoDB table creator.
